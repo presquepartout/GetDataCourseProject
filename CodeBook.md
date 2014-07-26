@@ -39,12 +39,16 @@ The results of the analysis are in the file tidyset.txt.
 
 ## Activity Names/Factor Levels
 
-1 - walk
-2 - walkupstairs
-3 - walkdownstairs
-4 - sit
-5 - stand
-6 - liedown
+The activity ids 1:6 were converted to factors as follows: 
+
+| id        | level           | 
+| :-------: |:--------------------:| 
+| 1      | walk | 
+| 2      | walkupstairs   |   
+| 3 | walkdownstairs   |
+| 4     | sit | 
+| 5      | stand   |   
+| 6 | liedown      |
 
 ## Variable Names
 
