@@ -67,3 +67,75 @@ Another two overall categories are means and standard deviations (std) - all dat
 - angular velocity variable names contain "rotation"
 - jerk movement variable names contain "jerk"
 - gravity acceleration variables contain "gravity"
+
+### List of Variable Names
+
+| id        | Name           | Description |
+| :----: |:--------------------|:-------------------------------------------| 
+|1|xmove| linear acceleration in x direction, time measurement|
+|2|ymove| linear acceleration in y direction, time measurement|
+|3|zmove| linear acceleration in z direction, time measurement|
+|4|stdxmove|standard deviation of linear acceleration in x direction, time measurement|
+|5|stdymove|standard deviation of linear acceleration in y direction, time measurement|
+|6|stdzmove|standard deviation of linear acceleration in z direction, time measurement|
+|7|xgravity|acceleration due to gravity, x direction, time measurement |
+|8|ygravity|acceleration due to gravity, y direction, time measurement |
+|9|zgravity|acceleration due to gravity, z direction, time measurement |
+|10|stdxgravity|standard deviation of acceleration due to gravity, x direction, time measurement |
+|11|stdygravity|standard deviation of acceleration due to gravity, y direction, time measurement |
+|12|stdzgravity|standard deviation of acceleration due to gravity, z direction, time measurement |
+|13|xjerk|x direction jerk, time measurement |
+|14|yjerk|y direction jerk, time measurement |
+|15|zjerk|z direction jerk, time measurement |
+|16|stdxjerk|standard deviation of x direction jerk, time measurement |
+|17|stdyjerk|standard deviation of y direction jerk, time measurement |
+|18|stdzjerk|standard deviation of z direction jerk, time measurement |
+|19|xrotation|
+|20|yrotation|
+|21|zrotation|
+|22|stdxrotation|
+|23|stdyrotation|
+|24|stdzrotation|
+|25|xrotationjerk|
+|26|yrotationjerk|
+|27|zrotationjerk|
+|28|stdxrotationjerk|
+|29|stdyrotationjerk|
+|30|stdzrotationjerk|
+|31|movenorm|
+|32|stdmovenorm|
+|33|gravitynorm|
+|34|stdgravitynorm|
+|35|jerknorm|
+|36|stdjerknorm|
+|37|rotationnorm|
+|38|stdrotationnorm|
+|39|rotationjerknorm|
+|40|stdrotationjerknorm|
+|41|fxmove|
+|42|fymove|
+|43|fzmove|
+|44|fstdxmove|
+|45|fstdymove|
+|46|fstdzmove|
+|47|fxjerk|
+|48|fyjerk|
+|49|fzjerk|
+|50|fstdxjerk|
+|51|fstdyjerk|
+|52|fstdzjerk|
+|53|fxrotation|
+|54|fyrotation|
+|55|fzrotation|
+|56|fstdxrotation|
+|57|fstdyrotation|
+|58|fstdzrotation|
+|59|fmovenorm|
+|60|fstdmovenorm|
+|61|fnormjerk|
+|62|fstdnormjerk|
+|63|fnormbodyrotation|
+|64|fstdnormbodyrotation|
+|65|fnormangularjerk|
+|66|fstdnormangularjerk|
+
