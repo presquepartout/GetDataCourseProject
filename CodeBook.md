@@ -78,9 +78,9 @@ Another two overall categories are means and standard deviations (std) - all dat
 |4|stdxmove|standard deviation of linear acceleration in x direction, time measurement|
 |5|stdymove|standard deviation of linear acceleration in y direction, time measurement|
 |6|stdzmove|standard deviation of linear acceleration in z direction, time measurement|
-|7|xgravity|acceleration due to gravity, x direction, time measurement |
-|8|ygravity|acceleration due to gravity, y direction, time measurement |
-|9|zgravity|acceleration due to gravity, z direction, time measurement |
+|7|xgravity|acceleration due to gravity, x direction, mean time measurement |
+|8|ygravity|acceleration due to gravity, y direction, mean time measurement |
+|9|zgravity|acceleration due to gravity, z direction, mean time measurement |
 |10|stdxgravity|standard deviation of acceleration due to gravity, x direction, time measurement |
 |11|stdygravity|standard deviation of acceleration due to gravity, y direction, time measurement |
 |12|stdzgravity|standard deviation of acceleration due to gravity, z direction, time measurement |
@@ -90,18 +90,18 @@ Another two overall categories are means and standard deviations (std) - all dat
 |16|stdxjerk|standard deviation of x direction jerk, time measurement |
 |17|stdyjerk|standard deviation of y direction jerk, time measurement |
 |18|stdzjerk|standard deviation of z direction jerk, time measurement |
-|19|xrotation|
-|20|yrotation|
-|21|zrotation|
-|22|stdxrotation|
-|23|stdyrotation|
-|24|stdzrotation|
-|25|xrotationjerk|
-|26|yrotationjerk|
-|27|zrotationjerk|
-|28|stdxrotationjerk|
-|29|stdyrotationjerk|
-|30|stdzrotationjerk|
+|19|xrotation|rotation, x direction, time measurement|
+|20|yrotation|rotation, y direction, time measurement|
+|21|zrotation|rotation, z direction, time measurement|
+|22|stdxrotation|standard deviation of rotation, x direction, time measurement|
+|23|stdyrotation|standard deviation of rotation, y direction, time measurement|
+|24|stdzrotation|standard deviation of rotation, z direction, time measurement|
+|25|xrotationjerk|rotational jerk, x direction, time measurement|
+|26|yrotationjerk|rotational jerk, y direction, time measurement|
+|27|zrotationjerk|rotational jerk, z direction, time measurement|
+|28|stdxrotationjerk|standard deviation of rotational jerk, x direction, time measurement|
+|29|stdyrotationjerk|standard deviation of rotational jerk, y direction, time measurement|
+|30|stdzrotationjerk|standard deviation of rotational jerk, z direction, time measurement|
 |31|movenorm|
 |32|stdmovenorm|
 |33|gravitynorm|
@@ -115,9 +115,9 @@ Another two overall categories are means and standard deviations (std) - all dat
 |41|fxmove|
 |42|fymove|
 |43|fzmove|
-|44|fstdxmove|
-|45|fstdymove|
-|46|fstdzmove|
+|44|fstdxmove|standard deviation of linear acceleration, x direction, frequency transfer|
+|45|fstdymove|standard deviation of linear acceleration, y direction, frequency transfer|
+|46|fstdzmove|standard deviation of linear acceleration, z direction, frequency transfer|
 |47|fxjerk|
 |48|fyjerk|
 |49|fzjerk|
