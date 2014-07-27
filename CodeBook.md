@@ -29,9 +29,9 @@ The feature labels are used to create the row of column headings in the merged d
 
 ## Analysis Plan
 
-- To each of the raw data sets, training and test, only the features that are means and standard deviations are selected. This is a subset of 66 variables out of 561.
+- To each of the raw data sets, training and test, only the features that are means and standard deviations are selected - only the variables whose names ended with "mean()" or "std". This is a subset of 66 variables out of 561. 
 - To each data set, two columns will be added for subjects and activities. 
-- The data will be merged into a single data set. 
+- The training and testing data will be merged into a single data set. 
 - The 66 variable names will be changed to follow tidy data set guidelines. 
 - The activity column will be changed to descriptive factors to follow data set guidelines. 
 - A second tidy data set will be created that has the averages of each variable per subject, per activity. 
