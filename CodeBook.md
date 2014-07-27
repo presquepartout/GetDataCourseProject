@@ -118,24 +118,24 @@ Another two overall categories are means and standard deviations (std) - all dat
 |44|fstdxmove|standard deviation of linear acceleration, x direction, frequency transfer|
 |45|fstdymove|standard deviation of linear acceleration, y direction, frequency transfer|
 |46|fstdzmove|standard deviation of linear acceleration, z direction, frequency transfer|
-|47|fxjerk|
-|48|fyjerk|
-|49|fzjerk|
-|50|fstdxjerk|
-|51|fstdyjerk|
-|52|fstdzjerk|
+|47|fxjerk|x direction jerk, frequency transfer|
+|48|fyjerk|y direction jerk, frequency transfer|
+|49|fzjerk|z direction jerk, frequency transfer|
+|50|fstdxjerk|standard deviation of x direction jerk, frequency transfer|
+|51|fstdyjerk|standard deviation of y direction jerk, frequency transfer|
+|52|fstdzjerk|standard deviation of z direction jerk, frequency transfer|
 |53|fxrotation|
 |54|fyrotation|
 |55|fzrotation|
-|56|fstdxrotation|
-|57|fstdyrotation|
-|58|fstdzrotation|
-|59|fmovenorm|
-|60|fstdmovenorm|
-|61|fnormjerk|
-|62|fstdnormjerk|
-|63|fnormbodyrotation|
-|64|fstdnormbodyrotation|
-|65|fnormangularjerk|
-|66|fstdnormangularjerk|
+|56|fstdxrotation|standard deviation of x rotation, frequency transfer|
+|57|fstdyrotation|standard deviation of y rotation, frequency transfer|
+|58|fstdzrotation|standard deviation of z rotation, frequency transfer|
+|59|fmovenorm|magnitude of linear acceleration, frequency transfer|
+|60|fstdmovenorm|standard deviation of magnitude of linear acceleration, frequency transfer|
+|61|fnormjerk|magnitude of jerk, frequency transfer|
+|62|fstdnormjerk|standard deviation of magnitude of jerk, frequency transfer|
+|63|fnormbodyrotation| magnitude of body rotation, frequency transfer|
+|64|fstdnormbodyrotation|standard deviation of magnitude of body rotation, frequency transfer|
+|65|fnormangularjerk| magnitude of jerk rotation, frequency transfer|
+|66|fstdnormangularjerk|standard deviation of magnitude of jerk rotation, frequency transfer|
 
