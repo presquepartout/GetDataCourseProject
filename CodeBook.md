@@ -102,19 +102,19 @@ Another two overall categories are means and standard deviations (std) - all dat
 |28|stdxrotationjerk|standard deviation of rotational jerk, x direction, time measurement|
 |29|stdyrotationjerk|standard deviation of rotational jerk, y direction, time measurement|
 |30|stdzrotationjerk|standard deviation of rotational jerk, z direction, time measurement|
-|31|movenorm|
-|32|stdmovenorm|
-|33|gravitynorm|
-|34|stdgravitynorm|
-|35|jerknorm|
-|36|stdjerknorm|
-|37|rotationnorm|
-|38|stdrotationnorm|
-|39|rotationjerknorm|
-|40|stdrotationjerknorm|
-|41|fxmove|
-|42|fymove|
-|43|fzmove|
+|31|movenorm|magnitude of linear acceleration, time measurement|
+|32|stdmovenorm|standard deviation of magnitude of linear acceleration, time measurement|
+|33|gravitynorm|magnitude of gravitational acceleration, time measurement|
+|34|stdgravitynorm|standard deviation of magnitude of gravitational acceleration, time measurement|
+|35|jerknorm|magnitude of jerk, time measurement|
+|36|stdjerknorm|standard deviation of magnitude of jerk, time measurement|
+|37|rotationnorm|magnitude of rotation (angular velocity), time measurement|
+|38|stdrotationnorm|standard deviation of magnitude of rotation, time measurement|
+|39|rotationjerknorm|magnitude of jerk rotation, time measurement|
+|40|stdrotationjerknorm|standard deviation of magnitude of jerk rotation, time measurement|
+|41|fxmove|x direction move, frequency transfer|
+|42|fymove|y direction move, frequency transfer|
+|43|fzmove|z direction move, frequency transfer|
 |44|fstdxmove|standard deviation of linear acceleration, x direction, frequency transfer|
 |45|fstdymove|standard deviation of linear acceleration, y direction, frequency transfer|
 |46|fstdzmove|standard deviation of linear acceleration, z direction, frequency transfer|
@@ -124,9 +124,9 @@ Another two overall categories are means and standard deviations (std) - all dat
 |50|fstdxjerk|standard deviation of x direction jerk, frequency transfer|
 |51|fstdyjerk|standard deviation of y direction jerk, frequency transfer|
 |52|fstdzjerk|standard deviation of z direction jerk, frequency transfer|
-|53|fxrotation|
-|54|fyrotation|
-|55|fzrotation|
+|53|fxrotation|x direction rotation, frequency transfer|
+|54|fyrotation|y direction rotation, frequency transfer|
+|55|fzrotation|z direction rotation, frequency transfer|
 |56|fstdxrotation|standard deviation of x rotation, frequency transfer|
 |57|fstdyrotation|standard deviation of y rotation, frequency transfer|
 |58|fstdzrotation|standard deviation of z rotation, frequency transfer|
